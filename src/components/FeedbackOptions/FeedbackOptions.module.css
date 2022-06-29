@@ -1,0 +1,22 @@
+.btnList{
+    display: flex;
+    gap:20px;
+
+}
+.btn{
+    min-width: 100px;
+    cursor: pointer;
+    background-color: #6b4eed;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #4c30c8;
+}
+.btn::first-letter{
+    text-transform: uppercase;
+}
